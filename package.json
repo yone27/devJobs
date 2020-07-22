@@ -1,0 +1,46 @@
+{
+    "name": "computrabajo",
+    "version": "1.0.0",
+    "description": "Portal de trabajos, nodejs, hbs, mongoose",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index",
+        "dev": "concurrently \" npm run start \" \" npm run watch \"",
+        "watch": "webpack --w --mode development"
+    },
+    "author": "Yoneiker Gonzalez",
+    "license": "ISC",
+    "dependencies": {
+        "@handlebars/allow-prototype-access": "^1.0.3",
+        "axios": "^0.19.2",
+        "bcrypt": "^5.0.0",
+        "concurrently": "^5.2.0",
+        "connect-flash": "^0.1.1",
+        "connect-mongo": "^3.2.0",
+        "cookie-parser": "^1.4.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.0.0",
+        "express-session": "^1.17.1",
+        "express-validator": "^6.6.0",
+        "handlebars": "^4.7.6",
+        "http-errors": "^1.8.0",
+        "mongoose": "^5.9.24",
+        "multer": "^1.4.2",
+        "nodemailer": "^6.4.10",
+        "nodemailer-express-handlebars": "^4.0.0",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0",
+        "shortid": "^2.2.15",
+        "slug": "^3.3.2",
+        "sweetalert2": "^9.17.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "babel-loader": "^8.1.0",
+        "nodemon": "^2.0.4",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.12"
+    }
+}
